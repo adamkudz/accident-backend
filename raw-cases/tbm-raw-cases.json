@@ -1,6 +1,6 @@
 [
   {
-    "Oid": "6597b277196a541d44ecbd8d",
+    "Oid": "659ba6f9196a540784df2875",
     "MKey": 193422,
     "Closed": false,
     "CompletionStatus": "In work",
@@ -14,7 +14,7 @@
     "ProbableCause": null,
     "City": "Ludington",
     "Country": "USA",
-    "EventDate": "2023-11-26T11:00:00Z",
+    "EventDate": "2023-11-26T12:00:00Z",
     "State": "MI",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -69,7 +69,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b276196a541d44ecb965",
+    "Oid": "659ba6f8196a540784df244d",
     "MKey": 107033,
     "Closed": false,
     "CompletionStatus": "In work",
@@ -83,7 +83,7 @@
     "ProbableCause": null,
     "City": "Ashland",
     "Country": "USA",
-    "EventDate": "2023-04-07T16:55:00Z",
+    "EventDate": "2023-04-07T17:55:00Z",
     "State": "OR",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -138,7 +138,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b275196a541d44ecb53f",
+    "Oid": "659ba6f7196a540784df2027",
     "MKey": 105665,
     "Closed": false,
     "CompletionStatus": "In work",
@@ -152,7 +152,7 @@
     "ProbableCause": null,
     "City": "Carlsbad",
     "Country": "USA",
-    "EventDate": "2022-08-03T15:00:00Z",
+    "EventDate": "2022-08-03T16:00:00Z",
     "State": "NM",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -207,7 +207,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b274196a541d44ecb260",
+    "Oid": "659ba6f7196a540784df1d48",
     "MKey": 104785,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -221,7 +221,7 @@
     "ProbableCause": "The pilot’s failure to maintain directional control during the landing roll in gusting wind conditions.",
     "City": "Taylorville",
     "Country": "USA",
-    "EventDate": "2022-03-11T16:05:00Z",
+    "EventDate": "2022-03-11T17:05:00Z",
     "State": "IL",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -276,7 +276,7 @@
     "DocketOriginalPublishDate": "2022-04-19T16:00:00Z"
   },
   {
-    "Oid": "6597b274196a541d44ecaff6",
+    "Oid": "659ba6f6196a540784df1ade",
     "MKey": 104039,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -290,7 +290,7 @@
     "ProbableCause": "The pilot exceeded the airplane’s critical angle of attack during the landing approach resulting in an aerodynamic stall and subsequent hard landing.",
     "City": "Magee",
     "Country": "USA",
-    "EventDate": "2021-09-05T12:45:00Z",
+    "EventDate": "2021-09-05T13:45:00Z",
     "State": "MS",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -345,7 +345,7 @@
     "DocketOriginalPublishDate": "2022-04-06T04:00:00Z"
   },
   {
-    "Oid": "6597b273196a541d44ecaf09",
+    "Oid": "659ba6f6196a540784df19f1",
     "MKey": 103733,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -359,7 +359,7 @@
     "ProbableCause": "The pilot’s failure to arrest the airplane’s left roll and rapid descent for reasons that could not be determined based on the available evidence.",
     "City": "Urbana",
     "Country": "USA",
-    "EventDate": "2021-08-20T14:40:00Z",
+    "EventDate": "2021-08-20T15:40:00Z",
     "State": "OH",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -414,7 +414,7 @@
     "DocketOriginalPublishDate": "2023-03-22T17:00:00Z"
   },
   {
-    "Oid": "6597b273196a541d44ecaeb7",
+    "Oid": "659ba6f6196a540784df199f",
     "MKey": 103631,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -428,7 +428,7 @@
     "ProbableCause": "The pilot’s decision to continue an unstable approach, which resulted in a runway excursion.",
     "City": "Mount Pleasant",
     "Country": "USA",
-    "EventDate": "2021-07-27T11:05:00Z",
+    "EventDate": "2021-07-27T12:05:00Z",
     "State": "SC",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -483,7 +483,7 @@
     "DocketOriginalPublishDate": "2023-06-14T17:00:00Z"
   },
   {
-    "Oid": "6597b272196a541d44eca9bd",
+    "Oid": "659ba6f5196a540784df14a5",
     "MKey": 102077,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -497,7 +497,7 @@
     "ProbableCause": "The pilot’s failure to maintain control of the airplane for undetermined reasons during the descent to the destination airport.",
     "City": "Corfu",
     "Country": "USA",
-    "EventDate": "2020-10-02T11:44:00Z",
+    "EventDate": "2020-10-02T12:44:00Z",
     "State": "NY",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -552,7 +552,7 @@
     "DocketOriginalPublishDate": "2022-08-10T04:00:00Z"
   },
   {
-    "Oid": "6597b271196a541d44eca541",
+    "Oid": "659ba6f4196a540784df1029",
     "MKey": 100701,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -566,7 +566,7 @@
     "ProbableCause": "The single-engine pilot’s failure to yield to traffic established on the taxiway, which resulted in a ground collision.",
     "City": "Visalia",
     "Country": "USA",
-    "EventDate": "2019-12-17T12:16:00Z",
+    "EventDate": "2019-12-17T13:16:00Z",
     "State": "CA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -648,7 +648,7 @@
     "DocketOriginalPublishDate": "2020-06-05T19:00:00Z"
   },
   {
-    "Oid": "6597b271196a541d44eca450",
+    "Oid": "659ba6f3196a540784df0f38",
     "MKey": 100412,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -662,7 +662,7 @@
     "ProbableCause": "The pilot's failure to maintain bank control and adequate altitude during the approach, which resulted in his failure to maintain the runway heading and a subsequent collision with trees and terrain.",
     "City": "Breckenridge",
     "Country": "USA",
-    "EventDate": "2019-10-14T12:45:00Z",
+    "EventDate": "2019-10-14T13:45:00Z",
     "State": "TX",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -717,7 +717,7 @@
     "DocketOriginalPublishDate": "2020-01-16T17:08:00Z"
   },
   {
-    "Oid": "6597b271196a541d44eca41f",
+    "Oid": "659ba6f3196a540784df0f07",
     "MKey": 100359,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -731,7 +731,7 @@
     "ProbableCause": "The pilot’s failure to maintain airspeed during final approach, which resulted in a loss of control and an aerodynamic stall at a low altitude, and his decision to operate the airplane outside of the approved weight and balance envelope.",
     "City": "Lansing",
     "Country": "USA",
-    "EventDate": "2019-10-03T08:58:00Z",
+    "EventDate": "2019-10-03T09:58:00Z",
     "State": "MI",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -786,7 +786,7 @@
     "DocketOriginalPublishDate": "2022-08-30T19:00:00Z"
   },
   {
-    "Oid": "6597b270196a541d44ec9e94",
+    "Oid": "659ba6f2196a540784df097c",
     "MKey": 98641,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -800,7 +800,7 @@
     "ProbableCause": "The pilot's failure to maintain lateral control of the airplane during landing, which resulted in a wing strike.",
     "City": "Corvallis",
     "Country": "USA",
-    "EventDate": "2018-11-02T10:00:00Z",
+    "EventDate": "2018-11-02T11:00:00Z",
     "State": "OR",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -855,7 +855,7 @@
     "DocketOriginalPublishDate": "2019-12-16T17:51:00Z"
   },
   {
-    "Oid": "6597b26f196a541d44ec9a6c",
+    "Oid": "659ba6f1196a540784df0554",
     "MKey": 97198,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -869,7 +869,7 @@
     "ProbableCause": "A partial loss of engine power for reasons that could not be determined based on the available information.",
     "City": "Fort Apache",
     "Country": "USA",
-    "EventDate": "2018-05-06T13:38:00Z",
+    "EventDate": "2018-05-06T14:38:00Z",
     "State": "AZ",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -924,7 +924,7 @@
     "DocketOriginalPublishDate": "2021-03-26T12:00:00Z"
   },
   {
-    "Oid": "6597b26f196a541d44ec9926",
+    "Oid": "659ba6f1196a540784df040e",
     "MKey": 96753,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -938,7 +938,7 @@
     "ProbableCause": "The pilot's loss of control due to spatial disorientation.",
     "City": "Evanston",
     "Country": "USA",
-    "EventDate": "2018-02-18T16:05:00Z",
+    "EventDate": "2018-02-18T17:05:00Z",
     "State": "WY",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -993,7 +993,7 @@
     "DocketOriginalPublishDate": "2019-10-17T19:53:00Z"
   },
   {
-    "Oid": "6597b26e196a541d44ec97c8",
+    "Oid": "659ba6f1196a540784df02b0",
     "MKey": 96291,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1007,7 +1007,7 @@
     "ProbableCause": "The pilot’s inadequate compensation for gusting crosswind conditions during the go-around.",
     "City": "Las Vegas",
     "Country": "USA",
-    "EventDate": "2017-11-05T12:45:00Z",
+    "EventDate": "2017-11-05T13:45:00Z",
     "State": "NM",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -1062,7 +1062,7 @@
     "DocketOriginalPublishDate": "2017-12-20T20:27:00Z"
   },
   {
-    "Oid": "6597b26d196a541d44ec92d5",
+    "Oid": "659ba6ef196a540784defdbd",
     "MKey": 94782,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1131,7 +1131,7 @@
     "DocketOriginalPublishDate": "2017-03-29T11:14:00Z"
   },
   {
-    "Oid": "6597b26c196a541d44ec8bf8",
+    "Oid": "659ba6ee196a540784def6e0",
     "MKey": 92630,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1200,7 +1200,7 @@
     "DocketOriginalPublishDate": "2016-08-03T16:30:00Z"
   },
   {
-    "Oid": "6597b26b196a541d44ec88f2",
+    "Oid": "659ba6ed196a540784def3da",
     "MKey": 91666,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1269,7 +1269,7 @@
     "DocketOriginalPublishDate": "2017-07-26T17:17:00Z"
   },
   {
-    "Oid": "6597b26b196a541d44ec8731",
+    "Oid": "659ba6ed196a540784def219",
     "MKey": 91127,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1338,7 +1338,7 @@
     "DocketOriginalPublishDate": "2016-06-30T11:25:00Z"
   },
   {
-    "Oid": "6597b26a196a541d44ec8470",
+    "Oid": "659ba6ec196a540784deef58",
     "MKey": 90208,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1407,7 +1407,7 @@
     "DocketOriginalPublishDate": "2016-05-12T13:34:00Z"
   },
   {
-    "Oid": "6597b269196a541d44ec8073",
+    "Oid": "659ba6eb196a540784deeb5b",
     "MKey": 88953,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1476,7 +1476,7 @@
     "DocketOriginalPublishDate": "2016-01-29T13:55:00Z"
   },
   {
-    "Oid": "6597b268196a541d44ec7b5b",
+    "Oid": "659ba6ea196a540784dee643",
     "MKey": 86896,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1545,7 +1545,7 @@
     "DocketOriginalPublishDate": "2013-06-06T13:08:00Z"
   },
   {
-    "Oid": "6597b267196a541d44ec7843",
+    "Oid": "659ba6e9196a540784dee32b",
     "MKey": 85329,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1614,7 +1614,7 @@
     "DocketOriginalPublishDate": "2015-01-21T15:26:00Z"
   },
   {
-    "Oid": "6597b266196a541d44ec72b2",
+    "Oid": "659ba6e8196a540784dedd9a",
     "MKey": 82860,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1683,7 +1683,7 @@
     "DocketOriginalPublishDate": "2014-05-08T11:30:00Z"
   },
   {
-    "Oid": "6597b266196a541d44ec7227",
+    "Oid": "659ba6e8196a540784dedd0f",
     "MKey": 82544,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1752,7 +1752,7 @@
     "DocketOriginalPublishDate": "2012-12-17T19:41:00Z"
   },
   {
-    "Oid": "6597b266196a541d44ec7111",
+    "Oid": "659ba6e8196a540784dedbf9",
     "MKey": 82046,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1821,7 +1821,7 @@
     "DocketOriginalPublishDate": "2014-03-14T14:57:00Z"
   },
   {
-    "Oid": "6597b266196a541d44ec7054",
+    "Oid": "659ba6e8196a540784dedb3c",
     "MKey": 81723,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1890,7 +1890,7 @@
     "DocketOriginalPublishDate": "2014-04-16T19:07:00Z"
   },
   {
-    "Oid": "6597b265196a541d44ec6d68",
+    "Oid": "659ba6e7196a540784ded850",
     "MKey": 79147,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1959,7 +1959,7 @@
     "DocketOriginalPublishDate": "2011-06-29T16:54:00Z"
   },
   {
-    "Oid": "6597b263196a541d44ec6665",
+    "Oid": "659ba6e5196a540784ded14d",
     "MKey": 76102,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2028,7 +2028,7 @@
     "DocketOriginalPublishDate": "2012-12-11T19:54:00Z"
   },
   {
-    "Oid": "6597b263196a541d44ec64c8",
+    "Oid": "659ba6e5196a540784decfb0",
     "MKey": 75427,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2097,7 +2097,7 @@
     "DocketOriginalPublishDate": "2010-04-14T13:37:00Z"
   },
   {
-    "Oid": "6597b263196a541d44ec6479",
+    "Oid": "659ba6e5196a540784decf61",
     "MKey": 75338,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2166,7 +2166,7 @@
     "DocketOriginalPublishDate": "2010-04-16T19:38:00Z"
   },
   {
-    "Oid": "6597b263196a541d44ec63e7",
+    "Oid": "659ba6e5196a540784dececf",
     "MKey": 75166,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2235,7 +2235,7 @@
     "DocketOriginalPublishDate": "2010-10-29T18:32:00Z"
   },
   {
-    "Oid": "6597b262196a541d44ec6217",
+    "Oid": "659ba6e5196a540784deccff",
     "MKey": 74636,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2304,7 +2304,7 @@
     "DocketOriginalPublishDate": "2009-11-03T19:53:00Z"
   },
   {
-    "Oid": "6597b261196a541d44ec5e07",
+    "Oid": "659ba6e4196a540784dec8ef",
     "MKey": 73462,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2373,7 +2373,7 @@
     "DocketOriginalPublishDate": "2010-02-19T13:48:00Z"
   },
   {
-    "Oid": "6597b261196a541d44ec5d21",
+    "Oid": "659ba6e3196a540784dec809",
     "MKey": 73184,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2442,7 +2442,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b25d196a541d44ec4bb2",
+    "Oid": "659ba6df196a540784deb69a",
     "MKey": 68445,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2511,7 +2511,7 @@
     "DocketOriginalPublishDate": "2009-09-15T20:21:00Z"
   },
   {
-    "Oid": "6597b25d196a541d44ec4aa4",
+    "Oid": "659ba6df196a540784deb58c",
     "MKey": 68155,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2580,7 +2580,7 @@
     "DocketOriginalPublishDate": "2008-12-18T21:42:00Z"
   },
   {
-    "Oid": "6597b25b196a541d44ec408a",
+    "Oid": "659ba6dd196a540784deab72",
     "MKey": 65234,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2594,7 +2594,7 @@
     "ProbableCause": "Both pilots' failure to maintain aircraft control during a missed approach.",
     "City": "Dartmouth",
     "Country": "USA",
-    "EventDate": "2007-02-02T20:40:00Z",
+    "EventDate": "2007-02-02T21:40:00Z",
     "State": "MA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2649,7 +2649,7 @@
     "DocketOriginalPublishDate": "2007-10-25T16:43:00Z"
   },
   {
-    "Oid": "6597b25a196a541d44ec3d2d",
+    "Oid": "659ba6dc196a540784dea815",
     "MKey": 64225,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2663,7 +2663,7 @@
     "ProbableCause": "The Avenger pilot's visual lookout was indequate and he failed to maintain clearance from the RV-6.  Contributing factors were the Avenger's restricted visibility and the RV-6.",
     "City": "Oshkosh",
     "Country": "USA",
-    "EventDate": "2006-07-30T12:07:00Z",
+    "EventDate": "2006-07-30T13:07:00Z",
     "State": "WI",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2745,7 +2745,7 @@
     "DocketOriginalPublishDate": "2007-07-19T12:07:00Z"
   },
   {
-    "Oid": "6597b259196a541d44ec39f9",
+    "Oid": "659ba6dc196a540784dea4e1",
     "MKey": 63309,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2759,7 +2759,7 @@
     "ProbableCause": "The pilot failed to flare the airplane properly.",
     "City": "Canton",
     "Country": "USA",
-    "EventDate": "2006-02-04T19:35:00Z",
+    "EventDate": "2006-02-04T20:35:00Z",
     "State": "OH",
     "Agency": null,
     "BoardLaunch": false,
@@ -2814,7 +2814,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b259196a541d44ec38f1",
+    "Oid": "659ba6db196a540784dea3d9",
     "MKey": 63009,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2828,7 +2828,7 @@
     "ProbableCause": "The student's failure to maintain adequate airspeed, and the instructor's inadequate supervision and delayed remedial action, which resulted in a stall/mush.",
     "City": "Lancaster",
     "Country": "USA",
-    "EventDate": "2005-12-27T15:46:00Z",
+    "EventDate": "2005-12-27T16:46:00Z",
     "State": "CA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2883,7 +2883,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b256196a541d44ec2953",
+    "Oid": "659ba6d8196a540784de943b",
     "MKey": 58435,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2897,7 +2897,7 @@
     "ProbableCause": "The pilot's improper decision to not apply de-icing fluid to the wings prior to takeoff, which resulted in snow/ice contamination on the of the wings, a stall mush, and a forced landing in an open field.",
     "City": "Reading",
     "Country": "USA",
-    "EventDate": "2003-12-06T05:39:00Z",
+    "EventDate": "2003-12-06T06:39:00Z",
     "State": "PA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2952,7 +2952,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b255196a541d44ec23e5",
+    "Oid": "659ba6d7196a540784de8ecd",
     "MKey": 56887,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2966,7 +2966,7 @@
     "ProbableCause": "The improper installation of the power control linkage on the engine fuel control unit by maintenance personnel which resulted in a loss of power lever control, and the pilot's failure to follow emergency procedures and his intentional engine shutdown which resulted in a forced landing and subsequent inflight collision with a light pole.",
     "City": "Mobile",
     "Country": "USA",
-    "EventDate": "2003-04-24T20:12:00Z",
+    "EventDate": "2003-04-24T21:12:00Z",
     "State": "AL",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3021,7 +3021,7 @@
     "DocketOriginalPublishDate": "2005-06-16T13:25:00Z"
   },
   {
-    "Oid": "6597b254196a541d44ec22b6",
+    "Oid": "659ba6d6196a540784de8d9e",
     "MKey": 56555,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3035,7 +3035,7 @@
     "ProbableCause": "The pilot's failure to fly a stabilized, published instrument approach procedure, and his failure to maintain adequate airspeed which led to an aerodynamic stall.",
     "City": "Leesburg",
     "Country": "USA",
-    "EventDate": "2003-03-01T15:45:00Z",
+    "EventDate": "2003-03-01T16:45:00Z",
     "State": "VA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3090,7 +3090,7 @@
     "DocketOriginalPublishDate": "2004-04-19T18:38:00Z"
   },
   {
-    "Oid": "6597b254196a541d44ec2289",
+    "Oid": "659ba6d6196a540784de8d71",
     "MKey": 56503,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3104,7 +3104,7 @@
     "ProbableCause": "the dual student's failure to maintain aircraft control and the inadequate supervision by the flight instructor.  Contributing factors include the tailwind and the turbulence.",
     "City": "Aspen",
     "Country": "USA",
-    "EventDate": "2003-02-15T17:01:00Z",
+    "EventDate": "2003-02-15T18:01:00Z",
     "State": "CO",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3159,7 +3159,7 @@
     "DocketOriginalPublishDate": "2003-09-17T12:58:00Z"
   },
   {
-    "Oid": "6597b251196a541d44ec1372",
+    "Oid": "659ba6d3196a540784de7e5a",
     "MKey": 51960,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3173,7 +3173,7 @@
     "ProbableCause": "the pilot's spatial disorientation, which led to his failure to maintain aircraft control. A contributing factor was the pilot's decision to intentionally fly into known adverse weather that consisted of low ceilings, obscuration, and ice fog.",
     "City": "Englewood",
     "Country": "USA",
-    "EventDate": "2001-03-26T08:19:00Z",
+    "EventDate": "2001-03-26T09:19:00Z",
     "State": "CO",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3228,7 +3228,7 @@
     "DocketOriginalPublishDate": "2002-01-28T15:18:00Z"
   },
   {
-    "Oid": "6597b250196a541d44ec10bd",
+    "Oid": "659ba6d2196a540784de7ba5",
     "MKey": 50784,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3242,7 +3242,7 @@
     "ProbableCause": "The pilot not attaining the proper glidepath on the instrument approach.  The pilot's decision not to fly to an alternate airport and his decision to continue the approach in weather conditions below the published minimums were contributing factors.",
     "City": "HARRISBURG",
     "Country": "USA",
-    "EventDate": "2000-12-15T06:45:00Z",
+    "EventDate": "2000-12-15T07:45:00Z",
     "State": "IL",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3297,7 +3297,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b24d196a541d44ec026f",
+    "Oid": "659ba6cf196a540784de6d57",
     "MKey": 45944,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3366,7 +3366,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b24c196a541d44ebfdec",
+    "Oid": "659ba6ce196a540784de68d4",
     "MKey": 43640,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3435,7 +3435,7 @@
     "DocketOriginalPublishDate": "1999-05-10T11:59:00Z"
   },
   {
-    "Oid": "6597b241196a541d44ebcb18",
+    "Oid": "659ba6c3196a540784de3600",
     "MKey": 30050,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3449,7 +3449,7 @@
     "ProbableCause": "The failure of the pilot to maintain control of the aircraft due to spatial disorientation.  A factor was the dark night.",
     "City": "TRUCKEE",
     "Country": "USA",
-    "EventDate": "1998-03-13T20:00:00Z",
+    "EventDate": "1998-03-13T21:00:00Z",
     "State": "CA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3504,7 +3504,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b230196a541d44eb7f52",
+    "Oid": "659ba6b2196a540784ddea3a",
     "MKey": 10224,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3518,7 +3518,7 @@
     "ProbableCause": "fatigue fracture and subsequent failure of the gear door hinge bracket.",
     "City": "EAU CLAIRE",
     "Country": "USA",
-    "EventDate": "1996-03-29T18:33:00Z",
+    "EventDate": "1996-03-29T19:33:00Z",
     "State": "WI",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3573,7 +3573,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b234196a541d44eb9447",
+    "Oid": "659ba6b6196a540784ddff2f",
     "MKey": 15712,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3587,7 +3587,7 @@
     "ProbableCause": "THE PILOT'S FAILURE TO MAINTAIN DIRECTIONAL CONTROL.",
     "City": "SPOONER",
     "Country": "USA",
-    "EventDate": "1993-04-25T12:00:00Z",
+    "EventDate": "1993-04-25T13:00:00Z",
     "State": "WI",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3642,7 +3642,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "6597b23f196a541d44ebc247",
+    "Oid": "659ba6c1196a540784de2d2f",
     "MKey": 27739,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3656,7 +3656,7 @@
     "ProbableCause": "THE FAILURE OF BOTH PILOTS TO ADEQUATELY ANTICIPATE AND COMPENSATE FOR THE VARIABLE CROSS WIND CONDITION, AND, THE PILOT IN COMMAND'S INADEQUATE SUPERVISION OF THE FLIGHT.  A FACTOR IN THE ACCIDENT WAS THE LEFT SEAT PILOT'S LIMITED TOTAL EXPERIENCE AND EXPERIENCE IN HIGH PERFORMANCE AIRCRAFT TYPES.",
     "City": "SO. LAKE TAHOE",
     "Country": "USA",
-    "EventDate": "1992-08-22T13:03:00Z",
+    "EventDate": "1992-08-22T14:03:00Z",
     "State": "CA",
     "Agency": "NTSB",
     "BoardLaunch": false,

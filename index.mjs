@@ -2,7 +2,7 @@ import { scrapeRawData } from "./lib/scrapeRawData.mjs";
 import { extractVehicles } from "./lib/extractVehicles.mjs";
 import { scrapeReferenceLinks } from "./lib/scrapeReferenceLinks.mjs";
 import { downloadReferenceFiles } from "./lib/downloadReferenceFiles.mjs";
-import { getDatabaseAccidents } from "./lib/getDatabaseAccidents.mjs";
+import { getDatabaseAccidentIds } from "./lib/getDatabaseAccidentIds.mjs";
 import { getAccidentIds } from "./lib/getAccidentIds.mjs";
 import { makeAccidentMap } from "./lib/makeAccidentMap.mjs";
 import { uploadToSupabase } from "./lib/uploadToSupabase.mjs";
@@ -61,25 +61,35 @@ async function deleteDirectories(rawFolder, referenceFolder, accidentFolder) {
     }
 }
 
+async function getNewAccidents() {
+    let { newAccidents, scrapedAccidentIds } = await checkForNewAccidents(
+        ntsbUrl,
+        config,
+        rawFolder,
+        rawFileName
+    );
+
+    if (newAccidents.length > 0) {
+        let supabaseResponse = await uploadToSupabase(newAccidents);
+        console.log("supabase response", supabaseResponse);
+    } else {
+        console.log("No new accidents to upload");
+    }
+}
+
 await deleteDirectories(rawFolder, referenceFolder, accidentFolder);
+
+// await getNewAccidents();
 
 await fspromises.mkdir(`${referenceFolder}`, { recursive: true });
 
-let { newAccidents, scrapedAccidentIds } = await checkForNewAccidents(
-    ntsbUrl,
-    config,
-    rawFolder,
-    rawFileName
-);
+await scrapeRawData(ntsbUrl, config, rawFolder, rawFileName);
 
-if (newAccidents.length > 0) {
-    let supabaseResponse = await uploadToSupabase(newAccidents);
-    console.log("supabase response", supabaseResponse);
-} else {
-    console.log("No new accidents to upload");
-}
+await extractVehicles(rawFolder);
 
-// await scrapeReferenceLinks(accidentIds, referenceFolder);
+let accidentIds = await getAccidentIds(rawFolder, rawFileName);
+
+await scrapeReferenceLinks(accidentIds, referenceFolder);
 
 // let accidentMap = await makeAccidentMap(`${referenceFolder}`);
 
