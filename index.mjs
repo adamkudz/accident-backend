@@ -7,15 +7,17 @@ import { getScrapedAccidentIds } from "./lib/getScrapedAccidentIds.mjs";
 import { makeAccidentMap } from "./lib/makeAccidentMap.mjs";
 import { uploadToSupabase } from "./lib/uploadToSupabase.mjs";
 import { checkForNewAccidents } from "./lib/checkForNewAccidents.mjs";
+import { getDatabaseIncompleteIds } from "./lib/getDatabaseIncompleteIds.mjs";
 
 import * as fspromises from "fs/promises";
+import { deleteDatabaseAccident } from "./lib/deleteDatabaseAccident.mjs";
 
 const ntsbUrl = "https://www.ntsb.gov/Pages/AviationQueryv2.aspx";
 const referenceFolder = "reference-links";
 const rawFolder = "raw-cases";
 const rawFileName = "tbm-raw-cases.json";
 const accidentFolder = "accidents";
-const dbName = "tbm-accidents";
+const dbName = "tbm-accidents_duplicate";
 const config = {
     date: "01/01/1992",
     model: "tbm",
@@ -80,13 +82,60 @@ async function getNewAccidents() {
     }
 }
 
-await getNewAccidents();
+async function checkCompletionStatus() {
+    try {
+        let completedAccidents = [];
+        await scrapeRawData(ntsbUrl, config, rawFolder, rawFileName);
+        let rawData = await extractVehicles(rawFolder);
+        let incompleteAccidentsIds = await getDatabaseIncompleteIds(dbName);
 
-// await fspromises.mkdir(`${referenceFolder}`, { recursive: true });
+        console.log(incompleteAccidentsIds.length + " incomplete accidents");
+        incompleteAccidentsIds.forEach((id) => {
+            let accident = rawData.find(
+                (accident) => accident.NtsbNumber === id
+            );
 
-// await scrapeRawData(ntsbUrl, config, rawFolder, rawFileName);
+            if (accident.CompletionStatus === "Completed") {
+                completedAccidents.push(accident);
+            }
+        });
+        await fspromises.rm(process.cwd() + `/${rawFolder}`, {
+            recursive: true,
+        });
+        if (completedAccidents.length === 0) {
+            console.log("No accidents to update");
+            return;
+        } else {
+            await scrapeReferenceLinks(
+                completedAccidents[0].NtsbNumber,
+                referenceFolder
+            );
+            let accidentMap = await makeAccidentMap(`${referenceFolder}`);
+            await downloadReferenceFiles(accidentMap, accidentFolder);
+            completedAccidents.forEach(async (accident) => {
+                await deleteDatabaseAccident(accident.NtsbNumber, dbName);
+                console.log("accident deleted");
+                let supabaseResponse = await uploadToSupabase(accident, dbName);
+                console.log(supabaseResponse + " accident updated");
+            });
+        }
+    } catch (err) {
+        console.error(err);
+    }
+}
 
-// await extractVehicles(rawFolder);
+await checkCompletionStatus();
+
+// completedAccidents.forEach(async (accident) => {
+//     await deleteDatabaseAccident(accident.NtsbNumber, `${dbName}`);
+//     console.log("accident deleted");
+//     let supabaseResponse = await uploadToSupabase(accident, dbName);
+//     console.log(supabaseResponse + " accident updated");
+// });
+
+// await scrapeReferenceLinks(completedAccidents[0].NtsbNumber, referenceFolder);
+
+// await getNewAccidents();
 
 // let accidentIds = await getAccidentIds(rawFolder, rawFileName);
 
