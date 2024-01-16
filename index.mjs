@@ -1,6 +1,6 @@
 import { scrapeRawData } from "./lib/scrapeRawData.mjs";
 import { extractVehicles } from "./lib/extractVehicles.mjs";
-import { scrapeReferenceLinks } from "./lib/scrapeReferenceLinks.mjs";
+import { scrapeReferenceLinksAndWrite } from "./lib/scrapeReferenceLinksAndWrite.mjs";
 import { downloadReferenceFiles } from "./lib/downloadReferenceFiles.mjs";
 import { getDatabaseAccidentIds } from "./lib/getDatabaseAccidentIds.mjs";
 import { getScrapedAccidentIds } from "./lib/getScrapedAccidentIds.mjs";
@@ -8,6 +8,7 @@ import { makeAccidentMap } from "./lib/makeAccidentMap.mjs";
 import { uploadToSupabase } from "./lib/uploadToSupabase.mjs";
 import { checkForNewAccidents } from "./lib/checkForNewAccidents.mjs";
 import { getDatabaseIncompleteIds } from "./lib/getDatabaseIncompleteIds.mjs";
+import { uploadAccidentReferencesToS3 } from "./lib/storage.mjs";
 
 import * as fspromises from "fs/promises";
 import { deleteDatabaseAccident } from "./lib/deleteDatabaseAccident.mjs";
@@ -17,6 +18,7 @@ const referenceFolder = "reference-links";
 const rawFolder = "raw-cases";
 const rawFileName = "tbm-raw-cases.json";
 const accidentFolder = "accidents";
+const s3Bucket = "tbm-accidents";
 const dbName = "tbm-accidents_duplicate";
 const config = {
     date: "01/01/1992",
@@ -124,7 +126,14 @@ async function checkCompletionStatus() {
     }
 }
 
-await checkCompletionStatus();
+// await scrapeReferenceLinksAndWrite(
+//     completedAccidents[0].NtsbNumber,
+//     referenceFolder
+// );
+// let accidentMap = await makeAccidentMap(`${referenceFolder}`);
+// await downloadReferenceFiles(accidentMap, accidentFolder);
+
+// await checkCompletionStatus();
 
 // completedAccidents.forEach(async (accident) => {
 //     await deleteDatabaseAccident(accident.NtsbNumber, `${dbName}`);
@@ -133,14 +142,25 @@ await checkCompletionStatus();
 //     console.log(supabaseResponse + " accident updated");
 // });
 
-// await scrapeReferenceLinks(completedAccidents[0].NtsbNumber, referenceFolder);
+// await scrapeReferenceLinksAndWrite(completedAccidents[0].NtsbNumber, referenceFolder);
 
 // await getNewAccidents();
 
-// let accidentIds = await getAccidentIds(rawFolder, rawFileName);
+async function getAllAccidents() {
+    try {
+        // await scrapeRawData(ntsbUrl, config, rawFolder, rawFileName);
 
-// await scrapeReferenceLinks(accidentIds, referenceFolder);
+        // let accidentIds = await getScrapedAccidentIds(rawFolder, rawFileName);
 
-// let accidentMap = await makeAccidentMap(`${referenceFolder}`);
+        // await scrapeReferenceLinksAndWrite(accidentIds, referenceFolder);
 
-// await downloadReferenceFiles(accidentMap, accidentFolder);
+        // let accidentMap = await makeAccidentMap(`${referenceFolder}`);
+
+        // await downloadReferenceFiles(accidentMap, accidentFolder);
+        await uploadAccidentReferencesToS3(accidentFolder, s3Bucket);
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+await getAllAccidents();
