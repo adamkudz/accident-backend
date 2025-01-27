@@ -29,30 +29,43 @@ const config = {
 async function deleteDirectories(rawFolder, referenceFolder, accidentFolder) {
     console.log("deleting directories");
     try {
-        if (
-            (
-                await fspromises.readFile(
-                    process.cwd() + `/${rawFolder}/${rawFileName}`
-                )
-            ).length > 0
-        ) {
-            console.log("raw folder exists...deleting");
-            await fspromises.rm(process.cwd() + `/${rawFolder}`, {
-                recursive: true,
-            });
+        let rawPath = process.cwd() + `/${rawFolder}`;
+        await fspromises.access(rawPath, fspromises.constants.F_OK);
+        const rawStats = await fspromises.stat(rawPath);
+        if (rawStats.isDirectory()) {
+            await fspromises.rm(rawPath, { recursive: true });
+            console.log("raw directory deleted");
+        } else {
+            console.log("no raw directory");
         }
-
-        if (
-            (await fspromises.readdir(process.cwd() + `/${accidentFolder}`))
-                .length > 0
-        ) {
-            console.log("accident folder exists...deleting");
-            await fspromises.rm(process.cwd() + `/${accidentFolder}`, {
-                recursive: true,
-            });
+    } catch {
+        console.error("no raw directory");
+    }
+    try {
+        let referencePath = process.cwd() + `/${referenceFolder}`;
+        await fspromises.access(referencePath, fspromises.constants.F_OK);
+        const referenceStats = await fspromises.stat(referencePath);
+        if (referenceStats.isDirectory()) {
+            await fspromises.rm(referencePath, { recursive: true });
+            console.log("reference directory deleted");
+        } else {
+            console.log("no reference directory");
         }
-    } catch (err) {
-        console.error(err);
+    } catch {
+        console.error("no reference directory");
+    }
+    try {
+        let accidentPath = process.cwd() + `/${accidentFolder}`;
+        await fspromises.access(accidentPath, fspromises.constants.F_OK);
+        const accidentStats = await fspromises.stat(accidentPath);
+        if (accidentStats.isDirectory()) {
+            await fspromises.rm(accidentPath, { recursive: true });
+            console.log("accident directory deleted");
+        } else {
+            console.log("no accident directory");
+        }
+    } catch {
+        console.error("no accident directory");
     }
 }
 
@@ -75,9 +88,6 @@ async function getNewAccidents() {
             });
         } else {
             console.log("No new accidents to upload");
-            await fspromises.rm(process.cwd() + `/${rawFolder}`, {
-                recursive: true,
-            });
         }
     } catch (err) {
         console.error(err);
@@ -85,13 +95,20 @@ async function getNewAccidents() {
 }
 
 async function checkCompletionStatus() {
+    console.log("checking completion status");
+
+    await deleteDirectories(rawFolder, referenceFolder, accidentFolder);
+
     try {
         let completedAccidents = [];
         await scrapeRawData(ntsbUrl, config, rawFolder, rawFileName);
         let rawData = await extractVehicles(rawFolder);
         let incompleteAccidentsIds = await getDatabaseIncompleteIds(dbName);
 
-        console.log(incompleteAccidentsIds.length + " incomplete accidents");
+        console.log(
+            incompleteAccidentsIds.length + " incomplete accidents in database"
+        );
+        console.log(incompleteAccidentsIds);
         incompleteAccidentsIds.forEach((id) => {
             let accident = rawData.find(
                 (accident) => accident.NtsbNumber === id
@@ -99,26 +116,31 @@ async function checkCompletionStatus() {
 
             if (accident.CompletionStatus === "Completed") {
                 completedAccidents.push(accident);
+                console.log(accident.NtsbNumber + " is completed");
             }
-        });
-        await fspromises.rm(process.cwd() + `/${rawFolder}`, {
-            recursive: true,
         });
         if (completedAccidents.length === 0) {
             console.log("No accidents to update");
             return;
         } else {
-            await scrapeReferenceLinks(
-                completedAccidents[0].NtsbNumber,
+            console.log(completedAccidents.length + " accidents to update");
+            await scrapeReferenceLinksAndWrite(
+                completedAccidents,
                 referenceFolder
             );
             let accidentMap = await makeAccidentMap(`${referenceFolder}`);
             await downloadReferenceFiles(accidentMap, accidentFolder);
+            await uploadAccidentReferencesToS3(accidentFolder, s3Bucket);
             completedAccidents.forEach(async (accident) => {
+                let links = await fspromises.readFile(
+                    `./${referenceFolder}/${accident.NtsbNumber}.json`
+                );
+                accident.reference_links = JSON.parse(links);
+
                 await deleteDatabaseAccident(accident.NtsbNumber, dbName);
                 console.log("accident deleted");
-                let supabaseResponse = await uploadToSupabase(accident, dbName);
-                console.log(supabaseResponse + " accident updated");
+                await uploadToSupabase(accident, dbName);
+                console.log("Accident updated");
             });
         }
     } catch (err) {
@@ -163,4 +185,4 @@ async function getAllAccidents() {
     }
 }
 
-await getAllAccidents();
+await checkCompletionStatus();

@@ -1,6 +1,213 @@
 [
   {
-    "Oid": "65a0ecf2196a541d907c7418",
+    "Oid": "67973877196a541658837af5",
+    "MKey": 195417,
+    "Closed": false,
+    "CompletionStatus": "In work",
+    "HasSafetyRec": false,
+    "HighestInjury": "Serious",
+    "IsStudy": false,
+    "Mode": "Aviation",
+    "NtsbNumber": "WPR25LA029",
+    "OriginalPublishedDate": null,
+    "MostRecentReportType": "Prelim",
+    "ProbableCause": null,
+    "City": "Pinedale",
+    "Country": "USA",
+    "EventDate": "2024-10-29T16:45:00Z",
+    "State": "WY",
+    "Agency": "NTSB",
+    "BoardLaunch": false,
+    "BoardMeetingDate": null,
+    "DocketDate": null,
+    "EventType": "ACC",
+    "Launch": "None",
+    "ReportDate": null,
+    "ReportNum": null,
+    "ReportType": "DirectorBrief",
+    "Vehicles": [
+      {
+        "VehicleNumber": 1,
+        "DamageLevel": "Substantial",
+        "ExplosionType": "None",
+        "FireType": "None",
+        "SerialNumber": "363",
+        "AircraftCategory": "AIR",
+        "AmateurBuilt": false,
+        "EventID": null,
+        "Make": "DAHER",
+        "Model": "TBM700",
+        "NumberOfEngines": 1,
+        "RegistrationNumber": "N885CA",
+        "FlightOperationType": "PERS",
+        "Damage": false,
+        "AirMedical": false,
+        "AirMedicalType": null,
+        "flightScheduledType": null,
+        "flightServiceType": null,
+        "flightTerminalType": null,
+        "OperatorName": null,
+        "RegisteredOwner": "GRAND AIR LLC",
+        "RegulationFlightConductedUnder": "091",
+        "RepGenFlag": false,
+        "RevenueSightseeing": false,
+        "SecondPilotPresent": false
+      }
+    ],
+    "AirportId": "KPNA",
+    "AirportName": "Ralph Wenz Field Aieport",
+    "AnalysisNarrative": null,
+    "FactualNarrative": null,
+    "PrelimNarrative": "On October 29, 2024, about 1645 Mountain daylight time, a Daher TBM 700, N885CA, was substantially damaged when it was involved in an accident near Pinedale, Wyoming. The pilot and 5 passengers sustained minor injuries, and 1 passenger was seriously injured. The airplane was operated as a Title 14 Code of Federal Regulations Part 91 personal flight.&#x0D;\nAccording to a witness located at the Ralph Wenz Field Airport (PNA), Pinedale, Wyoming, the airplane landed and refueled. About 40 gallons of fuel was added to each fuel tank and the six passengers boarded the airplane during the stop. He noted that there was heavy snow falling during the airplane’s time on the ground. Before taxi, the pilot cleared the snow off the airplane with a brush.&#x0D;\nThe witness stated the snowfall was light when he observed the airplane taxi and takeoff on runway 29. Shortly after becoming airborne, the left wing dropped and struck terrain. Subsequently, the airplane came to rest on a snow drift adjacent to the runway. The left wing and fuselage were substantially damaged during the accident sequence.&#x0D;\nThe airplane was recovered and secured for further examination.",
+    "FatalInjuryCount": 0,
+    "MinorInjuryCount": 6,
+    "SeriousInjuryCount": 1,
+    "InvestigationClass": null,
+    "AccidentSiteCondition": "VMC",
+    "Latitude": 42.795903,
+    "Longitude": -109.80797,
+    "DocketOriginalPublishDate": null
+  },
+  {
+    "Oid": "67973876196a541658837718",
+    "MKey": 194143,
+    "Closed": false,
+    "CompletionStatus": "In work",
+    "HasSafetyRec": false,
+    "HighestInjury": "Serious",
+    "IsStudy": false,
+    "Mode": "Aviation",
+    "NtsbNumber": "ERA24LA191",
+    "OriginalPublishedDate": null,
+    "MostRecentReportType": "Prelim",
+    "ProbableCause": null,
+    "City": "Raleigh",
+    "Country": "USA",
+    "EventDate": "2024-04-24T10:10:00Z",
+    "State": "NC",
+    "Agency": "NTSB",
+    "BoardLaunch": false,
+    "BoardMeetingDate": null,
+    "DocketDate": null,
+    "EventType": "ACC",
+    "Launch": "None",
+    "ReportDate": null,
+    "ReportNum": null,
+    "ReportType": "DirectorBrief",
+    "Vehicles": [
+      {
+        "VehicleNumber": 1,
+        "DamageLevel": "Substantial",
+        "ExplosionType": "None",
+        "FireType": "None",
+        "SerialNumber": "356",
+        "AircraftCategory": "AIR",
+        "AmateurBuilt": false,
+        "EventID": null,
+        "Make": "SOCATA",
+        "Model": "TBM 850",
+        "NumberOfEngines": 1,
+        "RegistrationNumber": "N228CH",
+        "FlightOperationType": "BUS",
+        "Damage": false,
+        "AirMedical": false,
+        "AirMedicalType": null,
+        "flightScheduledType": null,
+        "flightServiceType": null,
+        "flightTerminalType": null,
+        "OperatorName": null,
+        "RegisteredOwner": null,
+        "RegulationFlightConductedUnder": "091",
+        "RepGenFlag": false,
+        "RevenueSightseeing": false,
+        "SecondPilotPresent": true
+      }
+    ],
+    "AirportId": "RDU",
+    "AirportName": "RALEIGH-DURHAM INTL",
+    "AnalysisNarrative": null,
+    "FactualNarrative": null,
+    "PrelimNarrative": "On April 24, 2024, about 1010 eastern daylight time, a Socata TBM 850, N228CH, was substantially damaged when it was involved in an accident near Raleigh, North Carolina. The airline transport pilot was seriously injured, and the passenger received minor injuries. The airplane was operated by Medical Air, Inc. as a Title 14 Code of Federal Regulations Part 91 business flight.&#x0D;\nThe accident occurred following an aborted landing on runway 32 at Raleigh-Durham International Airport (RDU). The pilot was unavailable for interview due to his injuries, but preliminary reports from the RDU air traffic control tower revealed that the airplane was cleared to land, then bounced on the runway before it “began a missed approach and started a left turn… then appeared to have stalled and hit the ground.”&#x0D;\nAirport surveillance video captured the airplane on final approach in the area consistent with the touchdown zone of runway 32. As the airplane approached the surface, it was temporarily blocked from view by a VOR antenna, and a plume consistent with dust or smoke bloomed around the propeller and briefly enveloped the fuselage as it continued just above the surface for about 1,500 ft before it transitioned to a climb attitude and banked left. The airplane stopped its climb about 100 ft above ground level and slowed while the left bank steepened to nearly 90° as the airplane descended to ground contact.  &#x0D;\nAccording to the passenger, the airplane was “rolling” and “tobogganing…as if we were descending a hill on the snow” during the final approach. He said the airplane touched down twice, after which the pilot appeared to “turn and roll the airplane left as if to take off again.” He added that the pilot made no announcements, and that there was no communication between them from runway contact to the accident site. The passenger stated that in the bank, “it felt as if the plane lost power” but that he couldn’t detect if the engine had stopped. &#x0D;\nReview of surveillance videos and photographs revealed that the airplane impacted the ground with its left wingtip and nose almost simultaneously. The airplane rotated an additional 45°, coming to rest upright. The propeller was separated from the engine and the leading edges of each of the four blades displayed gouging and chordwise scratching near the tips. The engine and engine compartment displayed significant impact damage. Aft of the engine, its firewall, windshield posts, windshield, instrument panel, and the cockpit area were intact. The fuselage was fractured between the cockpit and cabin areas, and the empennage and vertical stabilizer appeared largely intact. The horizontal stabilizer was damaged and displaced by impact but remained attached. There was no evidence of fire. &#x0D;\nThe left wing was severely impact damaged and outboard of mid-span was destroyed and scattered closely to the main wreckage. The right wing was attached, largely intact, and displayed an upward bend at its tip consistent with impact. &#x0D;\nThe airplane was recovered and retained for further examination.&#x0D;\nThe pilot held an airline transport pilot certificate with a rating for airplane multiengine land, with commercial privileges for airplane single-engine land. His most recent Federal Aviation Administration (FAA) second-class medical certificate was issued on October 20, 2023. The operator declared that the pilot had accrued 16,000 total hours of flight experience, of which 2,500 hours were in the accident airplane make and model.&#x0D;\nAccording to FAA and maintenance records, the airplane was manufactured in 2006 and was powered by a Pratt &amp; Whitney PT6A-66D turboshaft engine rated at 850 shaft horsepower. The airplane’s most recent annual inspection was completed on August 24, 2023, at 4,402 total aircraft hours. The Hobbs time displayed at the accident site was 4,524 hours.",
+    "FatalInjuryCount": 0,
+    "MinorInjuryCount": 1,
+    "SeriousInjuryCount": 1,
+    "InvestigationClass": null,
+    "AccidentSiteCondition": "VMC",
+    "Latitude": 35.870384,
+    "Longitude": -78.778245,
+    "DocketOriginalPublishDate": null
+  },
+  {
+    "Oid": "67973876196a5416588376b5",
+    "MKey": 194007,
+    "Closed": false,
+    "CompletionStatus": "In work",
+    "HasSafetyRec": false,
+    "HighestInjury": "Fatal",
+    "IsStudy": false,
+    "Mode": "Aviation",
+    "NtsbNumber": "WPR24FA119",
+    "OriginalPublishedDate": null,
+    "MostRecentReportType": "Prelim",
+    "ProbableCause": null,
+    "City": "Truckee",
+    "Country": "USA",
+    "EventDate": "2024-03-30T18:37:00Z",
+    "State": "CA",
+    "Agency": "NTSB",
+    "BoardLaunch": false,
+    "BoardMeetingDate": null,
+    "DocketDate": null,
+    "EventType": "ACC",
+    "Launch": "Partial",
+    "ReportDate": null,
+    "ReportNum": null,
+    "ReportType": "DirectorBrief",
+    "Vehicles": [
+      {
+        "VehicleNumber": 1,
+        "DamageLevel": "Destroyed",
+        "ExplosionType": "None",
+        "FireType": "On-Ground",
+        "SerialNumber": "1441",
+        "AircraftCategory": "AIR",
+        "AmateurBuilt": false,
+        "EventID": null,
+        "Make": "DAHER",
+        "Model": "TBM700",
+        "NumberOfEngines": 1,
+        "RegistrationNumber": "N960LP",
+        "FlightOperationType": "PERS",
+        "Damage": false,
+        "AirMedical": false,
+        "AirMedicalType": null,
+        "flightScheduledType": null,
+        "flightServiceType": null,
+        "flightTerminalType": null,
+        "OperatorName": "AVRAM ENTERPRISES LLC",
+        "RegisteredOwner": "AVRAM ENTERPRISES LLC",
+        "RegulationFlightConductedUnder": "091",
+        "RepGenFlag": false,
+        "RevenueSightseeing": false,
+        "SecondPilotPresent": true
+      }
+    ],
+    "AirportId": "TRK",
+    "AirportName": "TRUCKEE-TAHOE",
+    "AnalysisNarrative": null,
+    "FactualNarrative": null,
+    "PrelimNarrative": "On March 30, 2024, at 1837 Pacific daylight time, a Daher TBM 700 (960), N960LP, was substantially damaged when it was involved in an accident in Truckee, California. The pilot and passenger were fatally injured. The airplane was operated as a Title 14 Code of Federal Regulations (CFR) Part 91 personal flight.&#x0D;\n &#x0D;\nThe pilot and pilot-rated passenger had flown from Truckee to Denver on March 27 to visit their family. The accident flight was the return flight back to their home airport. The pilot purchased the airplane in November 2022 and had amassed over 250 hours flying it. &#x0D;\n&#x0D;\nThe Federal Aviation Administration (FAA) provided automatic dependent surveillance-broadcast (ADS-B) information disclosed that the airplane departed from Centennial Airport in Denver, Colorado about 1525. Following departure, the airplane turned to a westerly heading and eventually climbed to a cruise altitude of about 30,000 feet mean sea level (msl). The airplane continued on that course until reaching about 120 nautical miles (nm) from the Truckee-Tahoe Airport (TRK), Truckee, California. The airplane then made a right turn to the north and gradual descent to about 15,000 ft as it passed over Lake Tahoe (see Figure 1 below). The track then turned to the northeast directed to the Initial Approach Fix (IAF), WUDPA, for the RNAV (GPS) RWY 20 instrument approach. &#x0D;\n&#x0D;\n&#x0D;\nFigure 1: ADS-B Flight Track&#x0D;\n&#x0D;\nThe airplane passed over the Final Approach Fix (FAF), LUMO, at 1832:37 and the ADS-B data showed that immediately thereafter the Approach Mode (APP Mode) was turned on and the Altitude Hold (ALT Hold) was turned off. The airplane continued along the approach path and continued to descend. The flight track then passed over the Visual Descent Point (VDP) at 1835:43 at about 121 kts and an approximate altitude of 6,475 ft msl (see Figure 2 below). Approximately 20 seconds later, the track passed over the Missed Approach Point at an altitude of 6,200 ft msl and at 100 kts (total inertial speed) and continued between that altitude and 6,100 ft until abeam the runway identifier numbers (about 1,300 ft east). &#x0D;\n&#x0D;\n&#x0D;\nFigure 2: ADS-B Flight Track Referencing the Approach Procedure&#x0D;\n&#x0D;\nThe Autopilot mode was turned off and the altitude increased as the airplane began a gradual 180° turn to the right. The airplane climbed to about 6,750 ft at the base of the turn During the turn, the following selections were made ALT Hold on, ALT Hold off, Lateral Navigation Mode (LNAV) on, Autopilot on, LNAV off, a series of altitude selections (ending with 9,300 ft), and lastly, the Autopilot was turned off at 1837:20 as the airplane passed over runway 11 (see Figure 3 below). &#x0D;\n&#x0D;\n&#x0D;\nFigure 3: Flight Track Showing Speeds and Airplane Modes Selected&#x0D;\n&#x0D;\nThe airplane then momentarily climbed to about 6,850 ft (about 1,075 ft above ground level) while making a left turn. The turn tightened and the last three ADS-B returns, which showed a rapid decrease in altitude and an increase in speed. The last ADS-B return was at 1837:40 and indicated the airplane was at an altitude of about 280 ft above the ground and a speed of 170 kts; the return was about 200 ft northeast of the first identified impact point. &#x0D;\n&#x0D;\nThe air traffic control tower was closed at TRK. The airport’s NOTAMs reported that the Visual Approach Slope Indicator (VASI) lights were not operational for runway 21. A review of the recorded audio for the Common Traffic Frequency (CTAF) revealed that when the airplane was about 2.4 nm from the runway surface, clicks can be heard consistent with the pilot attempting to activate the runway lights.&#x0D;\n&#x0D;\nThe accident site was located in snow-covered terrain adjacent to railroad tracks about 3,200 ft north from the approach end of runway 11. In character, the terrain was dense thick brush and mature trees. The initial impact area was across four rails with the north area embedded with left-wing tip fragments and the south area had a severed tree with right-wing pieces see Figure 4 below). The initial impact was upslope from the main wreckage, which was located about 100 ft on a heading of 200°. The wreckage was found distributed over 300 ft with the nose wheel tire being one of the farthest pieces of recognizable debris, consistent with the airplane impacting with the landing gear in the extended position. The main wreckage included the fuselage, inboard wings, empennage, and engine. The fuselage and main cockpit area were severely fragmented and partially consumed by fire, consistent with impact. The Light Data Recorder (LDR) was not located in the wreckage and is presumed to be in the vicinity of the accident site. &#x0D;\n&#x0D;\n&#x0D;\nFigure 4: Debris Field and Initial Impact in Reference to the Accident Site&#x0D;\n&#x0D;\nA routine aviation weather report (METAR) for TRK was issued about 2 minutes before the accident. It stated: wind calm, visibility 3/4 mile in light snow, ceiling overcast at 900 ft agl, temperature 30° Fahrenheit, dew point temperature 30° Fahrenheit, altimeter 29.66 inches of mercury (inHg). A review of video camera footage at the airport and near the accident site revealed that the visibility at the time of the accident was under 0.34 statute miles (see Figure 5 below).&#x0D;\n&#x0D;\n&#x0D;\nFigure 5: Weather at the Airport &#x0D;\n&#x0D;\nThe High-Resolution Rapid Refresh (HRRR) numerical model was obtained from the NOAA Air Resources Laboratory and provided a sounding for the accident airport location. The sounding at 1900 was consistent with nimbostratus-type clouds in the area producing light snow with cloud tops near 17,000 ft. The sounding was also consistent with the possibility of light to moderate icing below 17,000 ft.",
+    "FatalInjuryCount": 2,
+    "MinorInjuryCount": 0,
+    "SeriousInjuryCount": 0,
+    "InvestigationClass": null,
+    "AccidentSiteCondition": "IMC",
+    "Latitude": 39.333665,
+    "Longitude": -120.15256,
+    "DocketOriginalPublishDate": null
+  },
+  {
+    "Oid": "67973876196a5416588374f1",
     "MKey": 193422,
     "Closed": false,
     "CompletionStatus": "In work",
@@ -69,7 +276,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecf1196a541d907c6fde",
+    "Oid": "67973875196a541658837062",
     "MKey": 107033,
     "Closed": false,
     "CompletionStatus": "In work",
@@ -138,21 +345,21 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecf0196a541d907c6bba",
+    "Oid": "67973874196a541658836c37",
     "MKey": 105665,
-    "Closed": false,
-    "CompletionStatus": "In work",
+    "Closed": true,
+    "CompletionStatus": "Completed",
     "HasSafetyRec": false,
     "HighestInjury": "None",
     "IsStudy": false,
     "Mode": "Aviation",
     "NtsbNumber": "WPR22LA290",
-    "OriginalPublishedDate": null,
-    "MostRecentReportType": "Prelim",
-    "ProbableCause": null,
+    "OriginalPublishedDate": "2024-04-25T04:00:00Z",
+    "MostRecentReportType": "Final",
+    "ProbableCause": "The pilot’s failure to extend the landing gear before landing due to a distraction, which resulted in an impact with the runway.",
     "City": "Carlsbad",
     "Country": "USA",
-    "EventDate": "2022-08-03T15:00:00Z",
+    "EventDate": "2022-08-03T08:30:00Z",
     "State": "NM",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -194,20 +401,20 @@
     ],
     "AirportId": "CNM",
     "AirportName": "CAVERN CITY AIR TRML",
-    "AnalysisNarrative": null,
-    "FactualNarrative": null,
-    "PrelimNarrative": "On August 3, 2022, about 1500 mountain daylight time, a Socata TBM 700 airplane, N620WG, was substantially damaged when it was involved in an accident near Carlsbad, New Mexico. The pilot and two passengers were not injured. The airplane was operated as a Title 14 Code of Federal Regulations Part 91 business flight.&#x0D;\n&#x0D;\nThe pilot stated he followed another airplane into the traffic pattern and maintained separation visually as the other airplane landed in front of him.  During his approach he felt the airplane was faster than normal, even after reducing the throttle more than expected. When the airplane reached short final, the pilot heard a low tone he was unfamiliar with. He chose to ignore the tone and concentrate on landing the airplane. The propeller impacted the runway and the airplane settled to the runway on its belly and came to a stop near centerline. The landing gear switch was found in the down position and the main landing gear were found in a partially extended position. The main landing gear doors had damage consistent with the landing gear being in a partially extended position as the airplane slid on the runway.  The pilot did not recall when he put the landing gear switch down and he did not recall looking at the landing gear indicator lights on approach.&#x0D;\n&#x0D;\nThe airplane was retained for further examination.&#x0D;",
+    "AnalysisNarrative": "The pilot stated he was distracted as he followed another airplane into the traffic pattern and maintained visual separation with the airplane as it landed in front of him. During his approach he felt the airplane was faster than normal, even after reducing the throttle more than expected. When the airplane reached short final, the pilot heard a low tone he was unfamiliar with. He chose to ignore the tone and concentrate on landing the airplane. As the airplane touched down, the propeller impacted the runway and the airplane settled to the runway on its belly and came to a stop near the runway centerline. &#x0D;\nThe landing gear switch was found in the down position, the main landing gear were found in a partially extended position, and the nose gear and landing gear doors were found in the retracted position. The main landing gear doors had damage consistent with the main landing gear being in a partially extended position, likely in transition, as the airplane slid on the runway. The nose gear doors had damage consistent with the doors being closed during landing. There was substantial damage to the stringers and frames on the underside of the airplane. An operational check of the landing gear was conducted following the accident and the landing gear operated normally and no anomalies were found.  &#x0D;\nThe evidence was consistent with the pilot becoming distracted and failing to extend the landing gear, followed by an attempt to lower the landing gear after the airplane touched down on the runway.",
+    "FactualNarrative": "On August 3, 2022, about 0830 mountain daylight time, a Socata TBM-700 airplane, N620WG, was substantially damaged when it was involved in an accident near Carlsbad, New Mexico. The pilot and two passengers were not injured. The airplane was operated as a Title 14 Code of Federal Regulations Part 91 business flight.&#x0D;\nThe pilot stated he followed another airplane into the traffic pattern and maintained separation visually as the other airplane landed in front of him. When the airplane reached short final, the pilot heard a low tone he was unfamiliar with. He chose to ignore the tone and concentrate on landing the airplane. As the airplane touched down, the propeller impacted the runway and the airplane settled to the runway on its belly and came to a stop near centerline. The landing gear switch was found in the down position, the main landing gear were found in a partially extended position, and the nose gear and landing gear doors were in a retracted position. The pilot did not recall when he put the landing gear switch down and he did not recall looking at the landing gear indicator lights on the approach. He further stated that he “failed to confirm 3 green,” and he let himself become distracted by the traffic in the pattern. &#x0D;\nThe main landing gear doors had damage to their faces on the lower 1/3 of each of the doors. The nose gear doors had damage to the face of both doors. There was substantial damage to the stringers and frames on the underside of the airplane.&#x0D;\nThe airplane was placed on jack stands and the landing gear was cycled up and down. It was noted that during extension the nose gear doors opened at the same time the main landing gear began to extend. No anomalies were noted with the landing gear system. -",
+    "PrelimNarrative": null,
     "FatalInjuryCount": 0,
     "MinorInjuryCount": 0,
     "SeriousInjuryCount": 0,
     "InvestigationClass": null,
-    "AccidentSiteCondition": null,
+    "AccidentSiteCondition": "VMC",
     "Latitude": 32.333553,
     "Longitude": -104.26144,
-    "DocketOriginalPublishDate": null
+    "DocketOriginalPublishDate": "2024-04-25T17:00:00Z"
   },
   {
-    "Oid": "65a0ecef196a541d907c68db",
+    "Oid": "67973873196a541658836954",
     "MKey": 104785,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -276,7 +483,7 @@
     "DocketOriginalPublishDate": "2022-04-19T16:00:00Z"
   },
   {
-    "Oid": "65a0ecee196a541d907c6674",
+    "Oid": "67973873196a5416588366e9",
     "MKey": 104039,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -345,7 +552,7 @@
     "DocketOriginalPublishDate": "2022-04-06T04:00:00Z"
   },
   {
-    "Oid": "65a0ecee196a541d907c6588",
+    "Oid": "67973873196a5416588365fc",
     "MKey": 103733,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -414,7 +621,7 @@
     "DocketOriginalPublishDate": "2023-03-22T17:00:00Z"
   },
   {
-    "Oid": "65a0ecee196a541d907c6536",
+    "Oid": "67973873196a5416588365aa",
     "MKey": 103631,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -483,7 +690,7 @@
     "DocketOriginalPublishDate": "2023-06-14T17:00:00Z"
   },
   {
-    "Oid": "65a0eced196a541d907c603f",
+    "Oid": "67973871196a5416588360b2",
     "MKey": 102077,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -552,7 +759,7 @@
     "DocketOriginalPublishDate": "2022-08-10T04:00:00Z"
   },
   {
-    "Oid": "65a0ecec196a541d907c5bc5",
+    "Oid": "67973870196a541658835c38",
     "MKey": 100701,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -648,7 +855,7 @@
     "DocketOriginalPublishDate": "2020-06-05T19:00:00Z"
   },
   {
-    "Oid": "65a0eceb196a541d907c5ad4",
+    "Oid": "67973870196a541658835b47",
     "MKey": 100412,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -717,7 +924,7 @@
     "DocketOriginalPublishDate": "2020-01-16T17:08:00Z"
   },
   {
-    "Oid": "65a0eceb196a541d907c5aa3",
+    "Oid": "67973870196a541658835b16",
     "MKey": 100359,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -786,7 +993,7 @@
     "DocketOriginalPublishDate": "2022-08-30T19:00:00Z"
   },
   {
-    "Oid": "65a0ecea196a541d907c551a",
+    "Oid": "6797386f196a54165883558d",
     "MKey": 98641,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -855,7 +1062,7 @@
     "DocketOriginalPublishDate": "2019-12-16T17:51:00Z"
   },
   {
-    "Oid": "65a0ece9196a541d907c50f2",
+    "Oid": "6797386e196a541658835165",
     "MKey": 97198,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -924,7 +1131,7 @@
     "DocketOriginalPublishDate": "2021-03-26T12:00:00Z"
   },
   {
-    "Oid": "65a0ece9196a541d907c4fac",
+    "Oid": "6797386e196a54165883501f",
     "MKey": 96753,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -993,7 +1200,7 @@
     "DocketOriginalPublishDate": "2019-10-17T19:53:00Z"
   },
   {
-    "Oid": "65a0ece8196a541d907c4e4e",
+    "Oid": "6797386d196a541658834ec1",
     "MKey": 96291,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1062,7 +1269,7 @@
     "DocketOriginalPublishDate": "2017-12-20T20:27:00Z"
   },
   {
-    "Oid": "65a0ece7196a541d907c495f",
+    "Oid": "6797386c196a5416588349d2",
     "MKey": 94782,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1131,7 +1338,7 @@
     "DocketOriginalPublishDate": "2017-03-29T11:14:00Z"
   },
   {
-    "Oid": "65a0ece5196a541d907c4284",
+    "Oid": "6797386b196a5416588342f6",
     "MKey": 92630,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1200,7 +1407,7 @@
     "DocketOriginalPublishDate": "2016-08-03T16:30:00Z"
   },
   {
-    "Oid": "65a0ece5196a541d907c3f7f",
+    "Oid": "6797386a196a541658833ff1",
     "MKey": 91666,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1269,7 +1476,7 @@
     "DocketOriginalPublishDate": "2017-07-26T17:17:00Z"
   },
   {
-    "Oid": "65a0ece4196a541d907c3dbe",
+    "Oid": "6797386a196a541658833e30",
     "MKey": 91127,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1338,7 +1545,7 @@
     "DocketOriginalPublishDate": "2016-06-30T11:25:00Z"
   },
   {
-    "Oid": "65a0ece4196a541d907c3afd",
+    "Oid": "67973869196a541658833b6f",
     "MKey": 90208,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1407,7 +1614,7 @@
     "DocketOriginalPublishDate": "2016-05-12T13:34:00Z"
   },
   {
-    "Oid": "65a0ece3196a541d907c3700",
+    "Oid": "67973868196a541658833772",
     "MKey": 88953,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1476,7 +1683,7 @@
     "DocketOriginalPublishDate": "2016-01-29T13:55:00Z"
   },
   {
-    "Oid": "65a0ece2196a541d907c31e8",
+    "Oid": "67973867196a54165883325a",
     "MKey": 86896,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1545,7 +1752,7 @@
     "DocketOriginalPublishDate": "2013-06-06T13:08:00Z"
   },
   {
-    "Oid": "65a0ece1196a541d907c2ed1",
+    "Oid": "67973867196a541658832f43",
     "MKey": 85329,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1614,7 +1821,7 @@
     "DocketOriginalPublishDate": "2015-01-21T15:26:00Z"
   },
   {
-    "Oid": "65a0ece0196a541d907c2940",
+    "Oid": "67973865196a5416588329b2",
     "MKey": 82860,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1683,7 +1890,7 @@
     "DocketOriginalPublishDate": "2014-05-08T11:30:00Z"
   },
   {
-    "Oid": "65a0ece0196a541d907c28b5",
+    "Oid": "67973865196a541658832927",
     "MKey": 82544,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1752,7 +1959,7 @@
     "DocketOriginalPublishDate": "2012-12-17T19:41:00Z"
   },
   {
-    "Oid": "65a0ece0196a541d907c27a0",
+    "Oid": "67973865196a541658832812",
     "MKey": 82046,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1821,7 +2028,7 @@
     "DocketOriginalPublishDate": "2014-03-14T14:57:00Z"
   },
   {
-    "Oid": "65a0ecdf196a541d907c26e3",
+    "Oid": "67973865196a541658832755",
     "MKey": 81723,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1890,7 +2097,7 @@
     "DocketOriginalPublishDate": "2014-04-16T19:07:00Z"
   },
   {
-    "Oid": "65a0ecdf196a541d907c23f7",
+    "Oid": "67973864196a54165883246a",
     "MKey": 79147,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -1959,7 +2166,7 @@
     "DocketOriginalPublishDate": "2011-06-29T16:54:00Z"
   },
   {
-    "Oid": "65a0ecdd196a541d907c1cf4",
+    "Oid": "67973863196a541658831d67",
     "MKey": 76102,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2028,7 +2235,7 @@
     "DocketOriginalPublishDate": "2012-12-11T19:54:00Z"
   },
   {
-    "Oid": "65a0ecdd196a541d907c1b57",
+    "Oid": "67973862196a541658831bca",
     "MKey": 75427,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2097,7 +2304,7 @@
     "DocketOriginalPublishDate": "2010-04-14T13:37:00Z"
   },
   {
-    "Oid": "65a0ecdd196a541d907c1b08",
+    "Oid": "67973862196a541658831b7b",
     "MKey": 75338,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2166,7 +2373,7 @@
     "DocketOriginalPublishDate": "2010-04-16T19:38:00Z"
   },
   {
-    "Oid": "65a0ecdd196a541d907c1a76",
+    "Oid": "67973862196a541658831ae9",
     "MKey": 75166,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2235,7 +2442,7 @@
     "DocketOriginalPublishDate": "2010-10-29T18:32:00Z"
   },
   {
-    "Oid": "65a0ecdc196a541d907c18a6",
+    "Oid": "67973862196a541658831919",
     "MKey": 74636,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2304,7 +2511,7 @@
     "DocketOriginalPublishDate": "2009-11-03T19:53:00Z"
   },
   {
-    "Oid": "65a0ecdb196a541d907c1496",
+    "Oid": "67973861196a541658831509",
     "MKey": 73462,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2373,7 +2580,7 @@
     "DocketOriginalPublishDate": "2010-02-19T13:48:00Z"
   },
   {
-    "Oid": "65a0ecdb196a541d907c13b0",
+    "Oid": "67973860196a541658831423",
     "MKey": 73184,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2442,7 +2649,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecd7196a541d907c0242",
+    "Oid": "6797385d196a5416588302b5",
     "MKey": 68445,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2511,7 +2718,7 @@
     "DocketOriginalPublishDate": "2009-09-15T20:21:00Z"
   },
   {
-    "Oid": "65a0ecd7196a541d907c0134",
+    "Oid": "6797385c196a5416588301a7",
     "MKey": 68155,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2580,7 +2787,7 @@
     "DocketOriginalPublishDate": "2008-12-18T21:42:00Z"
   },
   {
-    "Oid": "65a0ecd5196a541d907bf71a",
+    "Oid": "6797385a196a54165882f78d",
     "MKey": 65234,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2649,7 +2856,7 @@
     "DocketOriginalPublishDate": "2007-10-25T16:43:00Z"
   },
   {
-    "Oid": "65a0ecd4196a541d907bf3be",
+    "Oid": "67973859196a54165882f431",
     "MKey": 64225,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2745,7 +2952,7 @@
     "DocketOriginalPublishDate": "2007-07-19T12:07:00Z"
   },
   {
-    "Oid": "65a0ecd3196a541d907bf08a",
+    "Oid": "67973859196a54165882f0fd",
     "MKey": 63309,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2759,7 +2966,7 @@
     "ProbableCause": "The pilot failed to flare the airplane properly.",
     "City": "Canton",
     "Country": "USA",
-    "EventDate": "2006-02-04T19:35:00Z",
+    "EventDate": "2006-02-04T20:35:00Z",
     "State": "OH",
     "Agency": null,
     "BoardLaunch": false,
@@ -2814,7 +3021,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecd3196a541d907bef82",
+    "Oid": "67973858196a54165882eff5",
     "MKey": 63009,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2828,7 +3035,7 @@
     "ProbableCause": "The student's failure to maintain adequate airspeed, and the instructor's inadequate supervision and delayed remedial action, which resulted in a stall/mush.",
     "City": "Lancaster",
     "Country": "USA",
-    "EventDate": "2005-12-27T15:46:00Z",
+    "EventDate": "2005-12-27T16:46:00Z",
     "State": "CA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2883,7 +3090,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecd0196a541d907bdfe4",
+    "Oid": "67973855196a54165882e057",
     "MKey": 58435,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2897,7 +3104,7 @@
     "ProbableCause": "The pilot's improper decision to not apply de-icing fluid to the wings prior to takeoff, which resulted in snow/ice contamination on the of the wings, a stall mush, and a forced landing in an open field.",
     "City": "Reading",
     "Country": "USA",
-    "EventDate": "2003-12-06T05:39:00Z",
+    "EventDate": "2003-12-06T06:39:00Z",
     "State": "PA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -2952,7 +3159,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecce196a541d907bda77",
+    "Oid": "67973854196a54165882daea",
     "MKey": 56887,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -2966,7 +3173,7 @@
     "ProbableCause": "The improper installation of the power control linkage on the engine fuel control unit by maintenance personnel which resulted in a loss of power lever control, and the pilot's failure to follow emergency procedures and his intentional engine shutdown which resulted in a forced landing and subsequent inflight collision with a light pole.",
     "City": "Mobile",
     "Country": "USA",
-    "EventDate": "2003-04-24T20:12:00Z",
+    "EventDate": "2003-04-24T21:12:00Z",
     "State": "AL",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3021,7 +3228,7 @@
     "DocketOriginalPublishDate": "2005-06-16T13:25:00Z"
   },
   {
-    "Oid": "65a0ecce196a541d907bd948",
+    "Oid": "67973854196a54165882d9bb",
     "MKey": 56555,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3035,7 +3242,7 @@
     "ProbableCause": "The pilot's failure to fly a stabilized, published instrument approach procedure, and his failure to maintain adequate airspeed which led to an aerodynamic stall.",
     "City": "Leesburg",
     "Country": "USA",
-    "EventDate": "2003-03-01T15:45:00Z",
+    "EventDate": "2003-03-01T16:45:00Z",
     "State": "VA",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3090,7 +3297,7 @@
     "DocketOriginalPublishDate": "2004-04-19T18:38:00Z"
   },
   {
-    "Oid": "65a0ecce196a541d907bd91b",
+    "Oid": "67973853196a54165882d98e",
     "MKey": 56503,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3104,7 +3311,7 @@
     "ProbableCause": "the dual student's failure to maintain aircraft control and the inadequate supervision by the flight instructor.  Contributing factors include the tailwind and the turbulence.",
     "City": "Aspen",
     "Country": "USA",
-    "EventDate": "2003-02-15T17:01:00Z",
+    "EventDate": "2003-02-15T18:01:00Z",
     "State": "CO",
     "Agency": "NTSB",
     "BoardLaunch": false,
@@ -3159,7 +3366,7 @@
     "DocketOriginalPublishDate": "2003-09-17T12:58:00Z"
   },
   {
-    "Oid": "65a0eccb196a541d907bca06",
+    "Oid": "67973850196a54165882ca79",
     "MKey": 51960,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3228,7 +3435,7 @@
     "DocketOriginalPublishDate": "2002-01-28T15:18:00Z"
   },
   {
-    "Oid": "65a0ecca196a541d907bc751",
+    "Oid": "67973850196a54165882c7c4",
     "MKey": 50784,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3297,7 +3504,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecc7196a541d907bb903",
+    "Oid": "6797384c196a54165882b976",
     "MKey": 45944,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3366,7 +3573,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecc6196a541d907bb480",
+    "Oid": "6797384b196a54165882b4f3",
     "MKey": 43640,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3435,7 +3642,7 @@
     "DocketOriginalPublishDate": "1999-05-10T11:59:00Z"
   },
   {
-    "Oid": "65a0ecbb196a541d907b81ac",
+    "Oid": "67973840196a54165882821f",
     "MKey": 30050,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3504,7 +3711,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0eca9196a541d907b35e6",
+    "Oid": "6797382f196a54165882365a",
     "MKey": 10224,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3573,7 +3780,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecae196a541d907b4adb",
+    "Oid": "67973834196a541658824b4f",
     "MKey": 15712,
     "Closed": true,
     "CompletionStatus": "Completed",
@@ -3642,7 +3849,7 @@
     "DocketOriginalPublishDate": null
   },
   {
-    "Oid": "65a0ecb9196a541d907b78db",
+    "Oid": "6797383e196a54165882794e",
     "MKey": 27739,
     "Closed": true,
     "CompletionStatus": "Completed",
